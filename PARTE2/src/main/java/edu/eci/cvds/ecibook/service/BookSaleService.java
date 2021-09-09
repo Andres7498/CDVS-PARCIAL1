@@ -17,33 +17,33 @@ public class BookSaleService {
 	 * @return The amount to be charged to the client
 	 */
 	public BigDecimal calculateCost(final BigDecimal bookCategory, final DiscountCategory discountCategory) {
-
-		if (intValue(bookCategory)<11 && intValue(bookCategory)>0 && discountCategory == OTHER){
-			return BigDecimal.TEN = 25.000;
+		BigDecimal answer =0;
+		if ((bookCategory.compareTo(11.0) ==-1) && (bookCategory.compareTo(0.0) ==1) && discountCategory == OTHER){
+			return answer = 25.000;
 		}
-		else if (intValue(bookCategory)<11 && intValue(bookCategory)>0 && discountCategory == STUDENT){
-			return BigDecimal.TEN = 20.000;
+		else if ((bookCategory.compareTo(11.0) ==-1) && (bookCategory.compareTo(0.0) ==1) && discountCategory == STUDENT){
+			return answer = 20.000;
 		}
-		else if (intValue(bookCategory)<11 && intValue(bookCategory)>0 && discountCategory == EMPLOYEE){
-			return BigDecimal.TEN = 22.500;
+		else if ((bookCategory.compareTo(11.0) ==-1) && (bookCategory.compareTo(0.0) ==1) && discountCategory == EMPLOYEE){
+			return answer = 22.500;
 		}
-		else if (intValue(bookCategory)<21 && intValue(bookCategory)>10 && discountCategory == OTHER){
-			return BigDecimal.TEN = 50.000;
+		else if ((bookCategory.compareTo(21.0) ==-1) && (bookCategory.compareTo(10.0) ==1) && discountCategory == OTHER){
+			return answer = 50.000;
 		}
-		else if (intValue(bookCategory)<21 && intValue(bookCategory)>10 && discountCategory == STUDENT){
-			return BigDecimal.TEN = 40.000;
+		else if ((bookCategory.compareTo(21.0) ==-1) && (bookCategory.compareTo(10.0) ==1) && discountCategory == STUDENT){
+			return answer = 40.000;
 		}
-		else if (intValue(bookCategory)<21 && intValue(bookCategory)>10 && discountCategory == EMPLOYEE){
-			return BigDecimal.TEN = 45.000;
+		else if ((bookCategory.compareTo(21.0) ==-1) && (bookCategory.compareTo(10.0) ==1) && discountCategory == EMPLOYEE){
+			return answer = 45.000;
 		}
-		else if (intValue(bookCategory)<31 && intValue(bookCategory)>20 && discountCategory == OTHER){
-			return BigDecimal.TEN = 100.000;
+		else if ((bookCategory.compareTo(31.0) ==-1) && (bookCategory.compareTo(20.0) ==1) && discountCategory == OTHER){
+			return answer = 100.000;
 		}
-		else if (intValue(bookCategory)<31 && intValue(bookCategory)>20 && discountCategory == STUDENT){
-			return BigDecimal.TEN = 80.000;
+		else if ((bookCategory.compareTo(31.0) ==-1) && (bookCategory.compareTo(20.0) ==1) && discountCategory == STUDENT){
+			return answer = 80.000;
 		}
-		else if (intValue(bookCategory)<31 && intValue(bookCategory)>20 && discountCategory == EMPLOYEE){
-			return BigDecimal.TEN = 90.000;
+		else if ((bookCategory.compareTo(31.0) ==-1) && (bookCategory.compareTo(20.0) ==1) && discountCategory == EMPLOYEE){
+			return answer = 90.000;
 		}
 
 	}
