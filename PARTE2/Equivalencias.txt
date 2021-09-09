@@ -1,0 +1,12 @@
+CLASES DE EQUIVALENCIA 
+
+Descuento
+N= input
+N=Empleado 	N=Estudiante       N=Otro 
+	10%	|	20%	|	0%	|
+
+
+Calificacion
+M=Input
+M=1-10		M=11-20		M=21-30
+25.000		|50.000		|100.000	|
